@@ -1,0 +1,25 @@
+[project]
+name = "automotive-rag-chatbot"
+version = "0.1.0"
+description = "Domain-specific RAG chatbot for automotive software, standards and vehicle user guides"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.40.0",
+    "faiss-cpu>=1.8.0",
+    "numpy>=1.26.0",
+    "pypdf>=4.0.0",
+    "python-docx>=1.1.0",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.35.0",
+]
+
+# Only needed to regenerate the sample documents in data/
+[dependency-groups]
+dev = [
+    "fpdf2>=2.7.9",
+]
+
+[tool.uv]
+# This is an application (not a library), so uv does not need to build/install it.
+package = false

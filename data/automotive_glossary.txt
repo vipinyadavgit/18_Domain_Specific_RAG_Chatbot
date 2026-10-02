@@ -1,0 +1,43 @@
+Automotive Software Glossary
+
+ADAS - Advanced Driver Assistance Systems. Functions such as adaptive cruise control, lane keeping and emergency braking.
+
+AUTOSAR - AUTomotive Open System ARchitecture. Standard software architecture with a Classic and an Adaptive Platform.
+
+ASIL - Automotive Safety Integrity Level from ISO 26262. Levels are QM, A, B, C and D. D is the highest.
+
+ASPICE - Automotive SPICE. A process assessment model with capability levels 0 to 5.
+
+BSW - Basic Software. The AUTOSAR Classic layers below the RTE, such as services, ECU abstraction and drivers.
+
+CAN - Controller Area Network. A robust vehicle bus standardised in ISO 11898.
+
+CAN FD - CAN with Flexible Data-rate. Allows 64 data bytes per frame and a faster data phase.
+
+DoIP - Diagnostics over Internet Protocol, defined in ISO 13400.
+
+DTC - Diagnostic Trouble Code. A code stored by an ECU when it detects a fault.
+
+ECU - Electronic Control Unit. A small computer that controls one or more functions of the vehicle.
+
+HARA - Hazard Analysis and Risk Assessment. The ISO 26262 method used to determine the ASIL.
+
+HIL - Hardware-in-the-Loop. Testing a real ECU connected to a simulated vehicle.
+
+IVI - In-Vehicle Infotainment. The system with navigation, media, phone and connectivity features.
+
+MCAL - Microcontroller Abstraction Layer. The lowest AUTOSAR Classic software layer.
+
+OTA - Over-the-Air update. Software update delivered wirelessly to the vehicle.
+
+RTE - Runtime Environment. The AUTOSAR layer that connects software components with the basic software.
+
+SOME/IP - Scalable service-Oriented MiddlewarE over IP. Used for service communication in Ethernet networks.
+
+SOTIF - Safety Of The Intended Functionality, ISO 21448.
+
+SWC - Software Component. The basic building block of AUTOSAR application software.
+
+TARA - Threat Analysis and Risk Assessment. The cybersecurity method from ISO/SAE 21434.
+
+UDS - Unified Diagnostic Services, ISO 14229.
